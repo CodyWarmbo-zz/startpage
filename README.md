@@ -12,4 +12,5 @@ A quick and efficient startpage for your browser's homepage and new tab page. Ab
 - RSS Feed - Add an RSS feed (or multiple) to the Startpage.
 - Image Choose - Change the resource used to display an image on the Startpage.
 - Remove Favorite - Add a function/button to remove entries added to the Favorites page.
-
+- Themes - Dark/light options for user's preference.
+- Fully commented code and readme improvements.
