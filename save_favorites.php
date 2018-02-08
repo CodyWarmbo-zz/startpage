@@ -5,7 +5,7 @@ if(isset($_POST['title']) && isset($_POST['url'])) {
 	<div class="card">
 		<div class="card-image">
 			<figure class="image is-2by1">
-				<img src="images/' . $_POST['title'] . '.png" onerror="this.src=\'images/no-entry.png\'">
+				<img src="images/entry/' . $_POST['title'] . '.png" onerror="this.src=\'images/no-entry.png\'">
 			</figure>
 		</div>
 		<div class="card-header ">
