@@ -1,5 +1,5 @@
 # startpage
-A quick and efficient startpage for your browser's homepage and new tab page. Able to update and maintain favorites and dashboard info via account access.
+
 ## Screenshots
 ![Index](https://files.warmbo.com/index.php/s/5h2Zi2Hp2Ig0eRf/download)
 
