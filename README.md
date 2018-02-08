@@ -6,7 +6,7 @@ A quick and efficient startpage for your browser's homepage and new tab page. Ab
 ![Favorites](https://files.warmbo.com/index.php/s/4FruC03E9PiiWSH/download)
 ## Current features
 - Startpage - The index page, currently displays the date, weather from weatherwidget.io, and a random image from Unsplash.
-- Favorites - A page to display a title and image for URLs added via the PHP posting function.
+- Favorites - A page to display a title and image for URLs added via the PHP posting function. Currently there is no way to remove entries that are made. New entries look in /images/entry/ for a .png file with the same name used for the entry's title. 
 
 ## Planned features
 - RSS Feed - Add an RSS feed (or multiple) to the Startpage.
