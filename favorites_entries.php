@@ -4,7 +4,7 @@
 	<div class="card">
 		<div class="card-image">
 			<figure class="image is-2by1">
-				<img src="images/github.png">
+				<img src="images/entry/github.png">
 			</figure>
 		</div>
 		<div class="card-header ">
