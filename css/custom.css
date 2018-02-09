@@ -68,7 +68,6 @@ background-position: center;
   }
 }
 .hvr-bob {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -107,10 +106,5 @@ background-position: center;
 	position:absolute;
 	z-index:1001;
 	text-align:center;
-}
-
-#new-entry-content {
-	margin:-122px auto;
-	z-index:1101;
 }
 
