@@ -1,18 +1,1 @@
-<div class="columns is-multiline">
-<div class="column is-one-third hvr-bob">		
-	<a href="https://github.com">
-	<div class="card">
-		<div class="card-image">
-			<figure class="image is-2by1">
-				<img src="images/entry/github.png">
-			</figure>
-		</div>
-		<div class="card-header ">
-			<p class="card-header-title is-centered">
-				GitHub
-			</p>
-		</div>
-	</div>
-	</a>
-</div>
-
+<div class="column is-one-third hvr-bob"><a href="https://github.com"><div class="card"><div class="card-image"><figure class="image is-2by1"><img src="images/entry/GitHub.png" onerror="this.src='images/no-entry.png'"></figure></div><div class="card-header "><p class="card-header-title is-centered">GitHub</div></div></a></div><div class="column is-one-third hvr-bob"><a href="https://example.com"><div class="card"><div class="card-image"><figure class="image is-2by1"><img src="images/entry/Example.png" onerror="this.src='images/no-entry.png'"></figure></div><div class="card-header "><p class="card-header-title is-centered">Example</div></div></a></div>

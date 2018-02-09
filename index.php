@@ -54,41 +54,41 @@
 			<?php
 			include("nav.php");
 			?>
-		<section class="section">
-			<div class="columns">
-				<div class="column is-two-thirds">	
-					<div class="card">
-						<div class="card-header ">
-							<p class="card-header-title">
-								Today
-							</p>
-						</div>
-						<div class="card-content">
-							<h1 class="title"><?php echo date("F j, Y"); ?></h1>
-							<div class="weather">
-							   <a class="weatherwidget-io" href="https://forecast7.com/en/45d20n93d39/anoka/?unit=us" data-label_1="Anoka" data-label_2="Minnesota" data-font="Roboto" data-icons="Climacons Animated" data-days="5" >Anoka Minnesota</a>
-								<script>
-									!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "https://weatherwidget.io/js/widget.min.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "weatherwidget-io-js");
-								</script>
+			<section class="section">
+				<div class="columns">
+					<div class="column is-two-thirds">	
+						<div class="card">
+							<div class="card-header ">
+								<p class="card-header-title">
+									Today
+								</p>
 							</div>
-							
+							<div class="card-content">
+								<h1 class="title"><?php echo date("F j, Y"); ?></h1>
+								<div class="weather">
+								   <a class="weatherwidget-io" href="https://forecast7.com/en/45d20n93d39/anoka/?unit=us" data-label_1="Anoka" data-label_2="Minnesota" data-font="Roboto" data-icons="Climacons Animated" data-days="5" >Anoka Minnesota</a>
+									<script>
+										!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "https://weatherwidget.io/js/widget.min.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "weatherwidget-io-js");
+									</script>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card">
+							<div class="card-header">
+								<p class="card-header-title">
+									Photo
+								</p>
+							</div>
+							<div class="card-image">
+								<img src="https://source.unsplash.com/random?architecture">
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="column">
-					<div class="card">
-						<div class="card-header">
-							<p class="card-header-title">
-								Photo
-							</p>
-						</div>
-						<div class="card-image">
-							<img src="https://source.unsplash.com/random?architecture">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+			</section>
 		</section>
 	</div>
   </body>
